@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   font-family: var(--primary-font-family);
+}
+
+:root{
+--primary-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+--secondary-font-family:Verdana, Geneva, Tahoma, sans-serif;
+--primary-color:
+
+}
+
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(194deg, rgba(2,0,36,1) 0%, rgba(169,169,180,1) 0%, rgba(11,11,15,1) 58%);
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header nav ul{
+    display: flex;
+    gap: 15px;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+header img{
+    height: 90px;
+}
