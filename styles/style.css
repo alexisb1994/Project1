@@ -116,6 +116,7 @@ h2{
     border-radius: 10px;
     padding: 20px;
     cursor: pointer;
+    /* transition: 0.1s transform; */
 }
 
 #card .card-category1:hover,
@@ -294,7 +295,7 @@ border-radius: 5px;
 }
 
 #contact label{
-    color: white;
+    
     font-size: 20px;
 }
 
@@ -311,7 +312,8 @@ color: var(--primary-color);
 
 footer{
 height: 200px;
-background-color: rgb(116, 116, 116);
+
+background-color: rgb(0, 0, 0);
 color: white;
 display: flex;
 flex-direction: column;
@@ -330,10 +332,11 @@ padding: 20px;
 }
 
  .wsp{
-    position: absolute; /* Posiciona el icono de manera absoluta dentro de su contenedor */
-    top: 3600px; /* Distancia desde la parte superior de su contenedor */
-    left: 1650px; 
-    background-color: black;
+    position: relative; /* Posiciona el icono de manera absoluta dentro de su contenedor */
+    top: 170px; /* Distancia desde la parte superior de su contenedor */
+    left: 1600px; 
+    bottom: 0px;
+    background-color: rgb(255, 255, 255);
     padding: 25px 0px;
     border-radius: 100%;
 }
@@ -359,7 +362,8 @@ footer a{
     width: 0;
     height: 0;
     border-right: 100vw solid transparent ;
-    border-bottom: 13.9vw solid red;
+    border-bottom: 13.9vw solid rgb(15, 15, 15);
     margin-top: -13.9vw;
+    
 }
 
