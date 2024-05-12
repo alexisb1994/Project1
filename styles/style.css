@@ -165,6 +165,9 @@ footer .footer-title {
     background-repeat: no-repeat;
 }
 
+a {
+    text-decoration: none;
+}
 
 #products {
      display: flex;
