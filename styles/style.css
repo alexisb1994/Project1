@@ -423,16 +423,22 @@ footer a {
         gap: 20px;
         font-size: 10px;
     }
+
+    #products .products-card {
+        height: auto;
+    }
+
     #card .card-category1,
     .card-category2,
     .card-category3 {
         height: 120px;
-        width: 70%;
-               padding: 60px;
+        width: 60%;
+               padding: 30px;
            }
     #card {
         display: flex;
         flex-direction: column;
+        gap: 0px;
     }
 
     #card h2 {
@@ -449,6 +455,9 @@ footer a {
         background-color: var(--primary-color);
         padding: 15px 0px;
 
+    }
+    header{
+        padding: 0px;
     }
     header img {
         height: 40px;
