@@ -101,7 +101,8 @@ footer .footer-title {
 #banner .profile-img img {
     border-radius: 5px;
     width: 100%;
-
+    background-image: url(../assets/img/img1.jpg);
+background-size: cover;
 }
 
 #card {
