@@ -312,6 +312,7 @@ a {
     transition: 0.3s transform;
     background-color: black;
     color: var(--primary-color);
+    cursor: pointer;
 }
 
 footer {
