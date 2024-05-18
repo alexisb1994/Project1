@@ -364,10 +364,10 @@ footer a {
 .skewed {
     width: 0;
     height: 0;
-    border-right: 100vw solid transparent;
+    border-right: 99vw solid transparent;
     border-bottom: 13.8vw solid black;
     margin-top: -13.5vw;
-
+/* overflow: hidden; */
 }
 
 @media (max-width:880px) {
